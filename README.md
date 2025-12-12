@@ -1,6 +1,5 @@
-# This file is to Pratice some C 
+# This project is to pratice before the Clang exam in milestone-2 of the 42 school 
 
-Since i am going to have an exam soon i will pratice some of the exams C projects to get ready and 
-also to renforce what i have learnd so far. 
+The Goal is to be prepared for the exam and to reinforce what i have been learning.   
 
 42 School Milestone 01/ 
