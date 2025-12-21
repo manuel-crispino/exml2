@@ -7,8 +7,7 @@ int ft_list_size( t_list *begin_list)
 	int len ;
 
 	len = 0;
-	while(begin_list)	
-	{
+	while(begin_list)	{
 		len++;
 		begin_list = begin_list -> next;
 	}
@@ -45,6 +44,13 @@ int main (int argc, char **argv)
 			printf("Head->next:%p\n",head->next);
 		}
 			printf("total lenght of t_list is : %d\n",ft_list_size(head));
+		while(head)
+		{	
+			new = head->next;
+			free(head);	
+			head = new;
+		}
+			printf("after free total lenght of t_list is : %d\n",ft_list_size(head));
 	}
 	return (0);	
 }
